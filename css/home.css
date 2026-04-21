@@ -1,10 +1,17 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .main-hero-section{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/bg-img3.jpg");
-   
+    background-size: cover;
     background-position: center;
     height: 100vh;
  margin:0%;
 }
+
 .main-content{
     margin-left: 80px;
     
@@ -15,6 +22,7 @@
     align-items: center;
     height: 100%;
     color: white;
+  
  
 
 }
@@ -29,13 +37,12 @@
     
 }
 .sub-content{
-  
               color: rgb(218, 206, 206);
-              
               font-size: 25px;
-              font-family: 'Titillium Web', sans-serif;
-              margin-left: -30px;
-              margin-top: -20px;
+              font-weight: 500;
+              margin-left: 50px;
+              margin-top: 10px;
+              margin-bottom: 50px;
 }
 
 .destination-container{
@@ -44,6 +51,7 @@
     justify-content: space-evenly;
     gap: 30px;
     margin-top:40px;
+    margin-left: 60px;
     padding: 20px;
     width: 70%;
     border-radius: 40px;
@@ -81,7 +89,7 @@
     gap: 50px;
     margin-top: 40px;
     color: rgb(243, 240, 240);
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .statistics-value{   
     display: flex;
@@ -89,11 +97,151 @@
     align-items: center;
     gap: 10px;
     margin-top: 15px;
-    margin-left: 70px;
+    margin-left: 90px;
     
 }
 .statistics-number{
     font-size: 60px;
     font-weight: 700;
 
+}
+
+.destinations-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.destinations-section-heading {
+    font-size: 40px;
+}
+
+.destinations-section-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.destinations-section-items-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/raigad-img.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-info {
+    /* width: 100%; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-top-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card-name {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card-prize {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* padding-right: 30px; */
+}
+
+.card-bottom-info {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+}
+
+.btn-book {
+    background-color: #E6501B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.destinations-section-items-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.destinations-section-items-2-sub-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/sindhudurg-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destinations-section-items-2-sub-2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/pratapgad-img.jpeg);
+        background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destination-container-items-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.destinations-section-items-3-sub-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/singhgad-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destinations-section-items-3-sub-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/torna-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
