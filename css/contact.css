@@ -1,0 +1,10 @@
+.main-hero-section {
+    background-color: #F3E4C9;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+.main-content {
+    margin-left: 6%;
+    margin-top: 50px;
+}
