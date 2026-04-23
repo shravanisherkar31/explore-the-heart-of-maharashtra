@@ -1,5 +1,5 @@
 .main-hero-section {
-    background-color: #F3E4C9;
+    background-color: #ec6839df;
     background-size: cover;
     background-position: center;
     /* height: 100vh; */
@@ -47,7 +47,7 @@
 .contact-header {
     text-align: center;
     padding: 30px;
-    background: #d8c3a5;
+    background: #f3ba6a;
 }
 
 /* Container */
@@ -89,4 +89,33 @@ button {
 
 button:hover {
     background:red ;
+}
+/* Info */
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 {
+    margin-bottom: 15px;
+}
+
+/* Links */
+.contact-info a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* spacing */
+.contact-info p {
+    margin: 10px 0;
 }
