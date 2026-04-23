@@ -1,54 +1,83 @@
-.main-hero-section {
-    background-color: #F3E4C9;
-    background-size: cover;
-    background-position: center;
-    /* height: 100vh; */
-}
-.main-content {
-    margin-left: 6%;
-    margin-top: 50px;
+body{
+margin:0;
+font-family:Arial;
 }
 
-.highlighted-main-content {
-    color: #FAB95B;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
+/* Background */
+.main-hero-section{
+background-color: #ec6839df;
 }
 
-.highlighted-text {
-    padding-right: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
+/* Form Container */
+.container{
+max-width:500px;
+background:white;
+margin:60px auto;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
 }
 
-
-.sub-content {
-    font-size: 70px;
-    color: #E6501B;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 900;
-    margin-bottom: 30px;
+/* Heading */
+.container h1{
+text-align:center;
+color:#E6501B;
 }
 
-.heading-1 {
-    color: white;
+.sub{
+text-align:center;
+color:gray;
+margin-bottom:20px;
 }
 
-.main-info {
-    color: white;
-    font-size: 20px;
-    width: 800px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* Form */
+.form{
+display:flex;
+flex-direction:column;
 }
-/* Container */
-.container {
-    max-width: 500px;
-    background: white;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+label{
+margin-top:10px;
+font-weight:bold;
+}
+
+/* Inputs */
+input, select{
+padding:10px;
+margin-top:5px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* Row */
+.row{
+display:flex;
+gap:10px;
+}
+
+.row input{
+flex:1;
+}
+
+/* Checkbox */
+.check{
+display:flex;
+gap:15px;
+margin-top:5px;
+}
+
+/* Button */
+button{
+margin-top:20px;
+padding:12px;
+background:#E6501B;
+color:white;
+border:none;
+border-radius:25px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#c43d0f;
 }

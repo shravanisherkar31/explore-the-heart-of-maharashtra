@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>plan trip</title>
-     <link rel="stylesheet" href="./../css/style.css" />
-    <link rel="stylesheet" href="./../css/places.css" />
+    <title>Document</title>
+      <link rel="stylesheet" href="./../css/style.css" />
+    <link rel="stylesheet" href="./../css/plan-trip.css" />
     <link rel="stylesheet" href="./../css/navbar.css" />
     <link rel="stylesheet" href="./../css/footer.css">
 </head>
 <body>
-     <div class="main-hero-section">
-      <!-- Navbar -->
+<div class="main-hero-section">
+
+     <!-- Navbar -->
       <div class="main-container">
         <div class="img-container">
           <img
@@ -27,7 +28,7 @@
         <div class="nav-menu">
           <a href="./../index.html" class="menu">Home</a>
           <a href="./../pages/places.html" class="menu">Places</a>
-          <a href="./../pages/plan_trip.html" class="menu">Plan Trip</a>
+          <a href="./../pages/plan-trip.html" class="menu">Plan Trip</a>
           <a href="./../pages/contact.html" class="menu">Contact</a>
         </div>
 
@@ -36,7 +37,48 @@
           <a href="./../pages/signup.html" class="menu">Sign Up</a>
         </div>
     </div>
+</div>
 
-    
+  <!-- FORM -->
+  <div class="container">
+
+    <h1>Plan Your Trip</h1>
+    <p class="sub">Fill the details and plan your perfect journey</p>
+
+    <form class="form">
+      <label>Destination</label>
+      <select>
+        <option>Select places</option>
+        <option>raigad fort</option>
+        <option>sinhagad fort</option>
+         <option>raigad fort</option>
+          <option>murud-janjira</option>
+      </select>
+
+      <label>Travel Dates</label>
+      <div class="row">
+        <input type="date">
+        <input type="date">
+      </div>
+
+      <label>Travelers</label>
+      <div class="row">
+        <input type="number" placeholder="Adults">
+        <input type="number" placeholder="Children">
+      </div>
+
+      <label>Budget</label>
+      <select>
+        <option>Select Budget</option>
+        <option>Low</option>
+        <option>Medium</option>
+      </select>
+
+      <button type="submit">Plan My Trip</button>
+    </form>
+
+  </div>
+
+</div>
 </body>
 </html>
